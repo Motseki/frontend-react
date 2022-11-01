@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 32px;
+  gap: 32px;
+
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.header p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.image{
+    width: 88px;
+    height: 88px;
+    margin-top: 64px;
+}
+
+img {
+  border-radius: 275px;
+}
+
+.link a {
+   margin: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 112px;    
+  gap: 24px; 
+  text-decoration: none;
+}
+
+#btn_twitter,
+#btn_zuri,
+#books,
+#book__python,
+#pitch,
+#book__design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  gap: 8px;
+
+  width: 100%;
+  height: 76px;
+  background: #EAECF0;
+  border: none;
+  border-radius: 8px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px; 
+}
+
+footer  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 112px;
+  gap: 64px;
+
+  width: 100%;
+  height: 160px;
+  left: 0px;
+  top: 998px;
+
+  background: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+}
